@@ -42,8 +42,8 @@ public class Product {
 		return price;
 	}
 
-	public void setPrice(double price) {
-		this.price = price;
+	public double setPrice() {
+		return this.price = price -((price * 10) / 100);
 	}
 
 	@Override
