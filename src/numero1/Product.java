@@ -7,7 +7,6 @@ public class Product {
 	private double price;
 	
 	public Product(long id, String name, String category, double price) {
-		super();
 		this.id = id;
 		this.name = name;
 		this.category = category;
